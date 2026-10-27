@@ -1,0 +1,37 @@
+{
+  "name": "deeplink-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI & SDK to test, verify, inspect, and scaffold mobile Deep Links, iOS Universal Links, and Android App Links",
+  "type": "module",
+  "bin": {
+    "deeplink": "./deeplink.mjs",
+    "deeplink-cli": "./deeplink.mjs"
+  },
+  "scripts": {
+    "start": "node ./deeplink.mjs",
+    "help": "node ./deeplink.mjs help",
+    "devices": "node ./deeplink.mjs devices"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiguelRosaDev/deeplink-cli.git"
+  },
+  "keywords": [
+    "deeplink",
+    "deeplinks",
+    "universal-links",
+    "app-links",
+    "aasa",
+    "assetlinks",
+    "ios",
+    "android",
+    "mobile",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Miguel Rosa",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

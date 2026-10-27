@@ -1,0 +1,14 @@
+{
+  "ios": {
+    "bundleId": "com.example.app",
+    "teamId": "TEAMID123"
+  },
+  "android": {
+    "packageName": "com.example.app"
+  },
+  "presets": {
+    "home": "myapp://home",
+    "profile": "myapp://profile/user-42",
+    "checkout": "https://example.com/checkout?promo=WELCOME"
+  }
+}
